@@ -52,13 +52,38 @@ $dadosTotal2 = mysqli_query($conn, $sql2);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/modal.css" />
     <link rel="stylesheet" href="../css/relatorioGastos.css" />
-    <title>EXIBIR FUNCIONARIOS</title>
+    <title>RELATÓRIO</title>
 </head>
 
 <body>
 
     <div class="container">
         <div class="container-area">
+            <div class="container-cabecalho">
+                <tr>
+                    <td class="td-cabecalho">
+                        <div class="form-img">
+                            <div class="img-area">
+                                <img src="../css/img/logoHTC.png" alt="user">
+                            </div>
+                        </div>
+                        <div class="form-img" id="info">
+                            <div class="img-area" id="info-inside">
+                                <label for="" class="label-info">HTC Transportes e Locação</label>
+                                <label for="" class="label-info">Rua Ayres de Almeida, 549 - Raiz</label>
+                                <label for="" class="label-info">CNPJ: 12.869.347/0001-54</label>
+                                <label for="" class="label-info">Telefones: 3877-1799 / 3877-4799</label>
+                                <label for="" class="label-info">E-mail: htctransportes10@hotmail.com</label>
+                            </div>
+                        </div>
+                        <div class="form-img">
+                            <div class="img-area">
+                                <img src="../css/img/caminhao.webp" alt="user">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </div>
             <div class="container-dados">
                 <table>
                     <thead>
@@ -101,7 +126,7 @@ $dadosTotal2 = mysqli_query($conn, $sql2);
                 </table>
             </div>
             <div class="container-button">
-                <button class="bt-btf" id="recibos">GERAR RELATÓRIO</button>
+                <button class="bt-btf" onclick="window.print()">GERAR RELATÓRIO</button>
                 <button class="bt-btf" onclick="window.location.href = 'exibirFuncionario.php'">VOLTAR</button>
             </div>
         </div>
