@@ -89,7 +89,7 @@ $dadosTotal2 = mysqli_query($conn, $sql2);
                     <thead>
                         <tr>
                             <th>Nº</th>
-                            <th>FUNCIONARIO </th>
+                            <th>FUNCIONÁRIO </th>
                             <th>1º QUINZENA</th>
                             <th>2º QUINZENA</th>
                             <th>TOTAL DO MÊS</th>
@@ -126,7 +126,7 @@ $dadosTotal2 = mysqli_query($conn, $sql2);
                 </table>
             </div>
             <div class="container-button">
-                <button class="bt-btf" onclick="window.print()">GERAR RELATÓRIO</button>
+                <button class="bt-btf" onclick="window.print()">IMPRIMIR RELATÓRIO</button>
                 <button class="bt-btf" onclick="window.location.href = 'exibirFuncionario.php'">VOLTAR</button>
             </div>
         </div>

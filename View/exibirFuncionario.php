@@ -83,7 +83,7 @@ $dadosTotal = mysqli_query($conn, $sql);
                                 <th></th>
                                 <th></th>
                                 <th>Nº</th>
-                                <th class="fixed-side" id="fixed">FUNCIONARIO </th>
+                                <th class="fixed-side" id="fixed">FUNCIONÁRIO </th>
                                 <th>FUNÇÃO</th>
                                 <th>LOCADO</th>
                                 <th>PAGAMENTO</th>
@@ -134,7 +134,7 @@ $dadosTotal = mysqli_query($conn, $sql);
                 </div>
                 <div class="container-button">
                     <button class="bt-btf" onclick="window.location.href = 'funcionario.php'">CADASTRAR FUNCIONÁRIO</button>
-                    <button class="bt-btf" id="recibos" onclick="window.print()">GERAR RECIBOS</button>
+                    <button class="bt-btf" id="recibos" onclick="window.print()">IMPRIMIR RECIBOS</button>
                     <button class="bt-btf" onclick="window.location.href = 'exibirLocados.php'">LOCADOS</button>
                     <button class="bt-btf" onclick="window.location.href = 'relatorioGastos.php'">RELATÓRIO DE GASTOS</button>
                 </div>
