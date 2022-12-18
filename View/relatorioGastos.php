@@ -101,7 +101,7 @@ $dadosTotal2 = mysqli_query($conn, $sql2);
                 </table>
             </div>
             <div class="container-button">
-                <button class="bt-btf" id="recibos">GERAR RECIBOS</button>
+                <button class="bt-btf" id="recibos">GERAR RELATÓRIO</button>
                 <button class="bt-btf" onclick="window.location.href = 'exibirFuncionario.php'">VOLTAR</button>
             </div>
         </div>
