@@ -174,7 +174,7 @@ td {
     body {
         margin: 0;
         padding: 0;
-        line-height: 1.4em; 
+        line-height: 1.2em;
     }
 
     .container {
@@ -193,7 +193,7 @@ td {
     }
 
     .container-area {
-        width: 90%;
+        width: 100%;
         height: max-content;
         display: flex;
         justify-content: center;
@@ -215,9 +215,15 @@ td {
         padding: 10px;
     }
 
+    #nome{
+        white-space: normal;
+    }
+    
     .container-dados table {
         overflow: hidden;
         white-space: nowrap;
+        font-size: 16px; 
+
     }
 
     .container-button .bt-btf {
@@ -225,7 +231,7 @@ td {
     }
 
     #n {
-        width: 50px;
+        width: 30px;
     }
 
     .form-img {

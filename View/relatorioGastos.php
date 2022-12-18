@@ -103,7 +103,7 @@ $dadosTotal2 = mysqli_query($conn, $sql2);
                         ?>
                             <tr>
                                 <td id="n"><?php echo $i ?></td>
-                                <td><?php echo $linha['nome']; ?></td>
+                                <td id="nome"><?php echo $linha['nome']; ?></td>
                                 <td><?php echo $linha['total1']; ?></td>
                                 <td><?php echo $linha['total2']; ?></td>
                                 <td><?php echo $linha['totalmes'] ?></td>
