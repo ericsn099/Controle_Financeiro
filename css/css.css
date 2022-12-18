@@ -1,0 +1,171 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Montserrat:ital,wght@0,400;1,600&display=swap');
+
+:root {
+    --font-primary: 'Inter', sans-serif;
+    --font-secundary: 'Montserrat', sans-serif;
+    --corBranca: #ffffff;
+    --corPrincipal: #c01818;
+    --preto: #000000;
+    --corFonteBranco: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: var(--font-secundary);
+}
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+    font-weight: 600;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.container-cabecalho {
+    display: flex;
+    width: 100%;
+    height: 160px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0.226), rgba(255, 255, 255, 0.432)), url(img/financas.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+}
+
+.container-area {
+    width: 45%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #ff4f4f;
+    background-color: var(--corBranca);
+
+}
+
+.container-area2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-form {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 145px;
+}
+
+.container-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-button .bt-btf {
+    width: 40%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    background-color: #35669d;
+    /* font-weight: 400; */
+    color: var(--corFonteBranco);
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.container-button .bt-btf:hover {
+    background-color: #203d5f;
+    color: var(--corFonteBranco);
+}
+
+.form {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-form-label{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form label {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+form label input {
+    height: 30px;
+    width: 100%;
+    font-size: 16px;
+    color: var(--preto);
+}
+
+.ui-select-style {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    font-size: 14px;
+}
+
+.ui-select-style:focus {
+    border: 1px solid rgb(229, 140, 140);
+    box-shadow: 1px 1px 1px rgba(229, 140, 140, 0.25);
+}
+
+/* Chrome e outros */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
